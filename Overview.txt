@@ -1,0 +1,8 @@
+This is a contact form built using the Codeigniter PHP framework.
+Apart from the php logic which validates all the input information it also has the Google reCaptcha test which prevents spamming.
+The reCaptcha test for this application requires both a sitekey and a secretkey in order to function properly.
+The keys can be acquired from the google website.
+After the form is submited successfully a contact email is sent and the input data in inserted in the database.
+Folder 'config' has a file named 'email.php' which contains the headers for sending the email.
+In the same folder the file named 'recaptcha.php' holds the  keys used for reCaptcha test.
+       
